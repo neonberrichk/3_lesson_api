@@ -42,7 +42,7 @@ def count_clicks(bitlink,token):
 
 
 def main():
-    token = os.getenv("TOKEN")
+    token = os.environ["BITLY_TOKEN"]
     parser = argparse.ArgumentParser(
     description='Описание что делает программа'
 )
