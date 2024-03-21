@@ -2,7 +2,6 @@ import os
 import argparse
 import requests
 from dotenv import load_dotenv
-load_dotenv()
 
 
 
@@ -42,6 +41,7 @@ def count_clicks(bitlink,token):
 
 
 def main():
+    load_dotenv()
     token = os.environ["BITLY_TOKEN"]
     parser = argparse.ArgumentParser(
     description='Описание что делает программа'
