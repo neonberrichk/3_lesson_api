@@ -8,7 +8,7 @@
 - Нужно добавить свой токен bitly в эту переменную
 - Python3 должен быть уже установлен. Затем используйте pip (или pip3, есть конфликт с Python2) для установки зависимостей
 ```sh
-```pip install -r requirements.txt```
+pip install -r requirements.txt
 ```
 
 ### Для чего нужна .env
